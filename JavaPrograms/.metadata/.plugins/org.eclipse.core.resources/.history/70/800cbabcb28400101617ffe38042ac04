@@ -1,0 +1,15 @@
+package variables;
+
+public class StaticVariable {
+	public static void main(String[] args) {
+		Student s1 = new Student();
+	}
+}
+
+class Student{
+	String name;
+    int age = 20;
+	Student(){ 
+		System.out.println(name + " " + age);
+	}
+}

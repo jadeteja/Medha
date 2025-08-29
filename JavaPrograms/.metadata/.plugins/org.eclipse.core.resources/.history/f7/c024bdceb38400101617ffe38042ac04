@@ -1,0 +1,16 @@
+package variables;
+
+public class StaticBlock {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+ class Student{
+	static {
+		System.out.println("Hello");
+	}
+}
